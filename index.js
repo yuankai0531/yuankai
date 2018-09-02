@@ -6,7 +6,7 @@ var express = require('express');
 var bot = linebot({
   channelId: 	1603897462,
   channelSecret: 9100f45ef47e1c62f0741c6dac5a0881,
-  channelAccessToken: F7LNQfaimzq5B2yaNmRhjOLECuC+KRMdOyFPu2XdsLbPowfxzHFDI13T+V9LG6KSytpsVghRilcPwLWAO3zQTYYEk1iVSoRfYbBk1d+wRcNpIdKTqEbOQyIuLWqhY6QPMez//7blbXEsQHJ67SaTnQdB04t89/1O/w1cDnyilFU=
+  channelAccessToken: S7JTRSYJGrCH2WqSWsNCrq0k1+6ipeqnenLKIh7JDwEhO9nJeeMkO4x55xW5U+qWytpsVghRilcPwLWAO3zQTYYEk1iVSoRfYbBk1d+wRcOyOtoZVIH/wveh5Mt6efmLYQXguLp0BXL9UBcwf1SPfgdB04t89/1O/w1cDnyilFU=
 });
 bot.on('message', function(event) {
   console.log(event+"cool"); //把收到訊息的 event 印出來看看
